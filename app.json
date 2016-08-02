@@ -6,7 +6,7 @@
   "env": {
       "EUREKA_USER_PASSWORD": {
           "description": "Password for the admin interface.",
-          "generator": "secret"
+          "required": "true"
       }
   }
 }
