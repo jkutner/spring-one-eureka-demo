@@ -8,5 +8,13 @@
           "description": "Password for the admin interface.",
           "required": "true"
       }
-  }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/jkutner/eureka-cache-buildpack"
+    },
+    {
+      "url": "heroku/java"
+    }
+  ]
 }
